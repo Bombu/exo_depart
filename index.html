@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Oh My Cats !</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="img-header">Adoptez un chat trop bon !</div>
+    </header>
+
+    <section>
+        <article>
+            <div id="titre-formulaire">Les chats à adopter</div>
+            <form action="/nouvelle-page" method="post">
+            <div>
+                <label for="choice">Choix du chat :</label>
+                <input type="text" id ="choice" name="user-choice">
+            </div>
+            <div>
+                <label for="reason">Raison d'adoption :</label>
+                <input type="text" id ="reason" name="user-reason">
+            </div>
+            <div class="button">
+                <button type="submit">Envoyer</button>
+            </div>
+            </form>
+        </article>
+        <article>
+            <div id="img-chat">
+                <img src="img/chat.jpg">
+            </div>
+        </article>
+    </section>
+</body>
+</html>
